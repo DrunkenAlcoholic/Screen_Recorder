@@ -1,6 +1,6 @@
 # Desktop Screen Recorder
 
-A straightforward bash script for recording your desktop with separate audio tracks. I wrote this because I needed a simple way to record screencasts and edit the audio separately afterward.
+A straightforward bash script for recording your desktop with separate audio tracks. I needed a simple way to record screencasts and edit the audio separately afterward.
 
 ## What it does
 
@@ -129,11 +129,9 @@ ffmpeg -i "your_folder/screen_recording.mkv" -i "your_folder/screen_recording_ed
 
 **Multiple monitors acting weird**: Use `--list-monitors` to see what's available, then specify which one with `-m`.
 
-## Why I made this
-
-I got tired of using screen recording software that either didn't give me separate audio tracks or was overkill for simple screencasts. This does exactly what I need: records the screen, captures audio separately, and gets out of my way.
-
-The separate audio track is really the key feature here. You can clean up audio issues, add background music, or just get better compression without affecting your video quality.
+## Disclaimer
+Claude.ai helped me refine and improve this script. While the core functionality and workflow came from my own needs, the AI assistance was invaluable for handling edge cases, improving error handling, and making the code more robust across different Linux environments.
+Also I had claude.ai write the readme.md :)
 
 ## License
 
